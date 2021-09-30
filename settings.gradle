@@ -1,0 +1,3 @@
+rootProject.name = "LinkaLockLib"
+include ':app'
+include ':linkalocklibs'

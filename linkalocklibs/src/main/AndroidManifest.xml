@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.linkalocklibs">
+
+    <application android:name="com.linkalocklibs.appdelegate.AppDelegate">
+
+        <service
+            android:name="com.linka.linkaapikit.module.Lock.FirmwareAPI.LINKA_BLE_Service"
+            android:enabled="true" />
+
+        <meta-data
+            android:name="AA_DB_NAME"
+            android:value="Linka.db" />
+        <meta-data
+            android:name="AA_DB_VERSION"
+            android:value="12" />
+
+    </application>
+
+</manifest>
